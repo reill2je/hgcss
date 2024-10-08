@@ -1,0 +1,61 @@
+
+h1 {
+	font-size: 50px;
+}
+h2, h3 {
+   font-family: "Verdana", Helvetica, sans-serif;
+}
+h2 {
+  color: #ae0001;
+  font-size: 25px;
+}
+h3 {
+  color: #740001;
+  font-size: 20px;
+}
+p::first-line {
+  font-size: 18px;
+  font-weight: bold;
+}
+#HGInfo {
+	background-color: #d4bf79;
+		border-top: 10px;
+}
+#Experience ul {
+	text-align: left;
+}
+#NEWT {
+	text-align: center;
+}
+
+body {
+  background-color: #F4E7C8;
+  	background-image: url("yellowstar.png");
+  	background-repeat: no-repeat;
+  	background-position: top center;
+  font-size: 15px;
+   font-family: "Georgia", Times, serif;
+   margin: 30px; 
+	 padding: 30px;
+	 line-height: 2;
+
+	    }
+ul {list-style-position: inside;
+	list-style-image: url('sparkle.png');
+}
+a:link {
+  color: blue;
+}
+a:visited { color: purple; 
+					text-decoration: none;
+				    font-size: 15px; }
+a:focus {
+  text-decoration: none;
+  background: #bae498;
+}
+
+a:hover { text-decoration: underline;
+					color: #eeba30;
+		  }
+a:active { color: rgba(255, 99, 71);
+		 }
